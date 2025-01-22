@@ -384,4 +384,24 @@ border-left: 1px solid var(--light-medium-gray);
         display: none;
         visibility: hidden;
       }
+    .mob-menu {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    .mob-logo {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .mob-nav {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
+    .mob-m {
+        display: flex;
+        align-items: center;
+    }
 }
