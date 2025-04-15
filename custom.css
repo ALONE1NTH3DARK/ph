@@ -488,6 +488,15 @@ footer ul li {
   }
 }
 
+@media (min-width: 800px) {
+  .telegram-button {
+    visibility: hidden;
+  }
+  .whatsapp-button {
+    visibility: hidden;
+  }
+}
+
 @media (max-width: 800px) {
   .telegram-button {
     bottom: 0px; /*отступ кнопки снизу от экрана*/
