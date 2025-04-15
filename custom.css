@@ -413,3 +413,101 @@ border-left: 1px solid var(--light-medium-gray);
         align-items: center;
     }
 }
+
+.telegram-button {
+    visibility: hidden;
+    position: fixed;
+    right: 10px;
+    bottom: 0px;
+    transform: translate(-50%, -50%);
+    background: #0088cc; /*цвет кнопки*/
+    border-radius: 50%;
+    width: 55px; /*ширина кнопки*/
+    height: 55px; /*высота кнопки*/
+    color: #fff;
+    text-align: center;
+    line-height: 53px; /*центровка иконки в кнопке*/
+    font-size: 35px; /*размер иконки*/
+    z-index: 9999;
+}
+.telegram-button a {
+    color: #fff;
+}
+.telegram-button a:hover {
+    color: #fff;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+@media (max-width : 800px) {
+    .telegram-button {   
+        visibility: visible;
+        bottom: 0px; /*отступ кнопки снизу от экрана*/
+        right: 10px; /*отступ кнопки слева от экрана(right - справа)*/
+      }
+    }
+
+    .whatsapp-button {
+        visibility: hidden;
+        position: fixed;
+        right: 10px;
+        bottom: 70px;
+        transform: translate(-50%, -50%);
+        background: #25d367; /*цвет кнопки*/
+        border-radius: 50%;
+        width: 55px; /*ширина кнопки*/
+        height: 55px; /*высота кнопки*/
+        color: #fff;
+        text-align: center;
+        line-height: 53px; /*центровка иконки в кнопке*/
+        font-size: 35px; /*размер иконки*/
+        z-index: 9999;
+    }
+    .whatsapp-button a {
+        color: #fff;
+    }
+    .whatsapp-button a:hover {
+        color: #fff;
+    }
+     
+    @keyframes animate
+    {
+        0%
+        {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+        50%
+        {
+            opacity: 1;
+        }
+        100%
+        {
+            transform: scale(1.2);
+            opacity: 0;
+        }
+    }
+    
+    @media (max-width : 800px) {  
+        .whatsapp-button {  
+            visibility: visible; 
+            bottom: 70px; /*отступ кнопки снизу от экрана*/
+            rigth: 10px; /*отступ кнопки слева от экрана(right - справа)*/
+          }
+        }
