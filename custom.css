@@ -454,8 +454,8 @@ footer ul li {
 
 .telegram-button {
   position: fixed;
-  right: 0px;
-  bottom: 0px;
+  right: 10px;
+  /* bottom: 0px; */
   transform: translate(-50%, -50%);
   background: #0088cc; /*цвет кнопки*/
   border-radius: 50%;
@@ -490,8 +490,8 @@ footer ul li {
 
 .whatsapp-button {
   position: fixed;
-  right: 0px;
-  bottom: 70px;
+  right: 10px;
+  /* bottom: 70px; */
   transform: translate(-50%, -50%);
   background: #25d367; /*цвет кнопки*/
   border-radius: 50%;
