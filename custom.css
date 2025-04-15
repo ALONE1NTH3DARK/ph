@@ -454,7 +454,7 @@ footer ul li {
 
 .telegram-button {
   position: fixed;
-  right: 10px;
+  right: -10px;
   /* bottom: 0px; */
   transform: translate(-50%, -50%);
   background: #0088cc; /*цвет кнопки*/
@@ -490,7 +490,7 @@ footer ul li {
 
 .whatsapp-button {
   position: fixed;
-  right: 10px;
+  right: -10px;
   /* bottom: 70px; */
   transform: translate(-50%, -50%);
   background: #25d367; /*цвет кнопки*/
@@ -527,11 +527,11 @@ footer ul li {
 @media (max-width: 800px) {
   .whatsapp-button {
     top: 110px; /*отступ кнопки снизу от экрана*/
-    rigth: 10px; /*отступ кнопки слева от экрана(right - справа)*/
+    rigth: -10px; /*отступ кнопки слева от экрана(right - справа)*/
   }
   .telegram-button {
     top: 40px; /*отступ кнопки снизу от экрана*/
-    right: 10px; /*отступ кнопки слева от экрана(right - справа)*/
+    right: -10px; /*отступ кнопки слева от экрана(right - справа)*/
   }
 }
 
