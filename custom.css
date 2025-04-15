@@ -500,7 +500,7 @@ footer ul li {
 @media (max-width: 800px) {
   .telegram-button {
     bottom: 0px; /*отступ кнопки снизу от экрана*/
-    right: 10px; /*отступ кнопки слева от экрана(right - справа)*/
+    left: 40px; /*отступ кнопки слева от экрана(right - справа)*/
   }
 }
 
@@ -543,6 +543,6 @@ footer ul li {
 @media (max-width: 800px) {
   .whatsapp-button {
     bottom: 70px; /*отступ кнопки снизу от экрана*/
-    rigth: 10px; /*отступ кнопки слева от экрана(right - справа)*/
+    left: 40px; /*отступ кнопки слева от экрана(right - справа)*/
   }
 }
