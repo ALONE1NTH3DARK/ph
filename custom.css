@@ -415,7 +415,6 @@ border-left: 1px solid var(--light-medium-gray);
 }
 
 .telegram-button {
-    visibility: hidden;
     position: fixed;
     right: 10px;
     bottom: 0px;
@@ -457,14 +456,12 @@ border-left: 1px solid var(--light-medium-gray);
 
 @media (max-width : 800px) {
     .telegram-button {   
-        visibility: visible;
         bottom: 0px; /*отступ кнопки снизу от экрана*/
         right: 10px; /*отступ кнопки слева от экрана(right - справа)*/
       }
     }
 
     .whatsapp-button {
-        visibility: hidden;
         position: fixed;
         right: 10px;
         bottom: 70px;
@@ -506,7 +503,6 @@ border-left: 1px solid var(--light-medium-gray);
     
     @media (max-width : 800px) {  
         .whatsapp-button {  
-            visibility: visible; 
             bottom: 70px; /*отступ кнопки снизу от экрана*/
             rigth: 10px; /*отступ кнопки слева от экрана(right - справа)*/
           }
