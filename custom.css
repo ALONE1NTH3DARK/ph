@@ -534,11 +534,14 @@ footer ul li {
 @media (max-width: 800px) {
   .whatsapp-button {
     top: 110px; /*отступ кнопки снизу от экрана*/
-    rigth: -10px; /*отступ кнопки слева от экрана(right - справа)*/
+    right: -10px; /*отступ кнопки слева от экрана(right - справа)*/
   }
   .telegram-button {
     top: 40px; /*отступ кнопки снизу от экрана*/
     right: -10px; /*отступ кнопки слева от экрана(right - справа)*/
+  }
+  .bgfixmobile {
+    background-size: cover;
   }
 }
 
