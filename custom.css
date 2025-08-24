@@ -83,7 +83,14 @@
 }
 
 .bg-orange-fire {
-  background-color: #f3e6dd;
+  background-color: #284e54;
+}
+
+.logostyle {
+  font-weight: 800;
+  background-image: linear-gradient(144deg, #facf8b 15%, #ad612e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* text gradient color */
