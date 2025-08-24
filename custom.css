@@ -542,6 +542,7 @@ footer ul li {
   }
   .bgfixmobile {
     background-size: cover;
+    top: 0px;
   }
 }
 
