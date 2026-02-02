@@ -84,8 +84,8 @@
     top: -15%; /* сдвигаем ниже (было 55%) */
     left: 85%; /* возвращаем ближе к центру по горизонтали */
     transform: translate(-50%, -50%);
-    width: 110px;
-    height: 110px;
+    width: 200px;
+    height: 200px;
   }
 }
 @media (max-width: 767px) {
@@ -22621,7 +22621,7 @@
     top: -15%; /* сдвигаем ниже (было 55%) */
     left: 85%; /* возвращаем ближе к центру по горизонтали */
     transform: translate(-50%, -50%);
-    width: 110px;
-    height: 110px;
+    width: 200px;
+    height: 200px;
   }
 }
