@@ -32,6 +32,78 @@
 
       gtag('config', 'G-BX0928CV04');
     </script>
+        <style>
+      .container-lis {
+        position: absolute;
+        top: 140%; /* сдвиг вниз (50% = центр, >50% = ниже) */
+        left: 0%; /* сдвиг влево (50% = центр, <50% = левее) */
+        transform: translate(-50%, -50%);
+        width: 200px;
+        height: 200px;
+      }
+
+      svg {
+        width: 100%;
+        height: 100%;
+        animation: rotate 30s linear infinite;
+      }
+
+      .text-lis {
+        font-size: 7.2px;
+        font-weight: 500;
+        fill: #dfa96b;
+        letter-spacing: 0.8px;
+      }
+
+      .center-img-lis {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        object-fit: contain;
+        /* box-shadow: 0 0 25px rgba(0, 212, 255, 0.4); */
+        pointer-events: none;
+        z-index: 2;
+      }
+
+      @keyframes rotate {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+
+      .container-lis::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border-radius: 50%;
+        background: radial-gradient(
+          circle,
+          rgba(0, 212, 255, 0.12) 0%,
+          transparent 70%
+        );
+        animation: pulse 5s ease-in-out infinite;
+        z-index: 1;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 0.5;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.9;
+          transform: scale(1.06);
+        }
+      }
+    </style>
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -113,6 +185,37 @@
                             </h1>
                             <p class="fs-24 text-white w-75 mb-35px lg-w-90 sm-w-100">Обучение фотографии в Караганде</p>
                             <!-- <a href="#" class="btn btn-large bg-base-color fs-20 fw-500">Выбрать курс</a> -->
+                             
+
+
+
+    <div class="container-lis">
+      <img
+        class="center-img-lis"
+        src="license.png"
+        alt="Лицензия"
+      />
+
+      <svg viewBox="0 0 100 100">
+        <defs>
+          <path
+            id="circlePath"
+            d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0"
+          />
+        </defs>
+
+        <text class="text-lis">
+          <textPath href="#circlePath" startOffset="0%" textLength="100%">
+            Гос. лицензия №12383-1930-ЧУ от 22.10.2001 года •
+          </textPath>
+        </text>
+      </svg>
+    </div>
+
+
+
+
+
                         </div>
                         <!-- <div class="vertical-title-center align-items-center w-75px justify-content-center position-absolute h-auto d-none d-md-flex">
                             <div class="title fs-15 text-dark-gray fw-700 text-uppercase ls-05px text-uppercase"
@@ -158,6 +261,7 @@
                                 <div class="slider-one-slide-next-1 icon-very-small text-white swiper-button-next slider-navigation-style-06 d-none d-sm-inline-block"><i class="line-icon-Arrow-OutRight icon-extra-large"></i></div> -->
                             <!-- end slider navigation -->
                         </div>
+
                         <!-- start slider pagination -->
                         <!-- <div
                             class="swiper-pagination-wrapper d-none d-lg-flex align-items-center justify-content-center position-absolute bottom-40px md-bottom-30px sm-bottom-20px left-minus-45 md-left-30px sm-left-20px z-index-9">
