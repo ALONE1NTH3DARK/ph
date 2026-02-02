@@ -32,78 +32,6 @@
 
       gtag('config', 'G-BX0928CV04');
     </script>
-        <style>
-      .container-lis {
-        position: absolute;
-        top: 140%; /* сдвиг вниз (50% = центр, >50% = ниже) */
-        left: 0%; /* сдвиг влево (50% = центр, <50% = левее) */
-        transform: translate(-50%, -50%);
-        width: 200px;
-        height: 200px;
-      }
-
-      svg {
-        width: 100%;
-        height: 100%;
-        animation: rotate 30s linear infinite;
-      }
-
-      .text-lis {
-        font-size: 7.2px;
-        font-weight: 500;
-        fill: #dfa96b;
-        letter-spacing: 0.8px;
-      }
-
-      .center-img-lis {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 110px;
-        height: 110px;
-        border-radius: 50%;
-        object-fit: contain;
-        /* box-shadow: 0 0 25px rgba(0, 212, 255, 0.4); */
-        pointer-events: none;
-        z-index: 2;
-      }
-
-      @keyframes rotate {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-
-      .container-lis::before {
-        content: "";
-        position: absolute;
-        inset: 0;
-        border-radius: 50%;
-        background: radial-gradient(
-          circle,
-          rgba(0, 212, 255, 0.12) 0%,
-          transparent 70%
-        );
-        animation: pulse 5s ease-in-out infinite;
-        z-index: 1;
-      }
-
-      @keyframes pulse {
-        0%,
-        100% {
-          opacity: 0.5;
-          transform: scale(1);
-        }
-        50% {
-          opacity: 0.9;
-          transform: scale(1.06);
-        }
-      }
-    </style>
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -184,6 +112,7 @@
                                 <br>Лашкевича
                             </h1>
                             <p class="fs-24 text-white w-75 mb-35px lg-w-90 sm-w-100">Обучение фотографии в Караганде</p>
+
                             <!-- <a href="#" class="btn btn-large bg-base-color fs-20 fw-500">Выбрать курс</a> -->
                              
 
